@@ -1,5 +1,7 @@
 # Parcel Plugin Typed CSS Modules
 
+[npm pacakge](https://www.npmjs.com/package/parcel-plugin-typed-css-modules)
+
 ## Installation
 All you need to do is install the npm package 😀
 
