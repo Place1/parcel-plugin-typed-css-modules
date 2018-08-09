@@ -16,6 +16,10 @@
   ],
   "author": "James Batt",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Place1/parcel-plugin-typed-css-modules.git"
+  },
   "dependencies": {
     "parcel-bundler": "^1.9.7",
     "typed-css-modules": "^0.3.5"
