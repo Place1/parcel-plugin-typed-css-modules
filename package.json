@@ -1,21 +1,23 @@
 {
   "name": "parcel-plugin-typed-css-modules",
   "version": "1.0.0",
-  "description": "",
+  "description": "A parcel plugin for typed-css-modules - generate typescript declaration files for your css modules automatically",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "parcel",
+    "parcel-bundler",
+    "typescript",
+    "css",
+    "css-modules",
+    "typed-css-modules"
+  ],
+  "author": "James Batt",
+  "license": "MIT",
   "dependencies": {
-    "css": "^2.2.3",
     "parcel-bundler": "^1.9.7",
     "typed-css-modules": "^0.3.5"
-  },
-  "devDependencies": {
-    "node-sass": "^4.9.2",
-    "typescript": "^3.0.1"
   }
 }
