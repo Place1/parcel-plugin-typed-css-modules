@@ -23,5 +23,9 @@
   "dependencies": {
     "parcel-bundler": "^1.9.7",
     "typed-css-modules": "^0.3.5"
+  },
+  "devDependencies": {
+    "node-sass": "^4.9.3",
+    "postcss-modules": "^1.3.2"
   }
 }

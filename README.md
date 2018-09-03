@@ -46,3 +46,27 @@ Now the typescript compiler can warn you about unknown/unused CSS classes:
 ```typescript
 import { myClass, anotherClass, oopsClass } from './css-example.css'; // <-- compilation error: oopsClass is not exported!
 ```
+
+### Support for CSS Modules (i.e., scoped/localized/mangled class names)
+
+[CSS modules](https://github.com/css-modules/css-modules) are supported.
+
+If Parcel is [configured to use PostCSS](https://en.parceljs.org/transforms.html#postcss) and CSS modules are enabled
+(e.g., the `.postcssrc` file contains `modules: true`), the contents of `css-example.css` will look like this:
+
+```css
+._myClass_1npel_2 {
+  display: block;
+}
+._another-class_1npel_6 {
+  display: block;
+}
+```
+
+The generated `css-example.css.d.ts` file will still contain the "plain" variable names so that you can continue to
+reference them as you'd expect in your application:
+
+```typescript
+export const myClass: string;
+export const anotherClass: string;
+```
