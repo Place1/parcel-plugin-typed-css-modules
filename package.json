@@ -1,6 +1,6 @@
 {
   "name": "parcel-plugin-typed-css-modules",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A parcel plugin for typed-css-modules - generate typescript declaration files for your css modules automatically",
   "main": "src/index.js",
   "scripts": {
