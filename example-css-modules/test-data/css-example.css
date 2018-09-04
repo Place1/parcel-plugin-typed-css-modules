@@ -7,3 +7,7 @@
   display: block;
 }
 
+:global(.non-localized-class) {
+  background-color: rebeccapurple;
+}
+
